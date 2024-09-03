@@ -5,6 +5,7 @@ let counter=0;
 let matchedCard=[];
 let firstCard=null;
 let secondCard=null;
+arr_num = arr_num.sort(() => Math.random() - 0.5);
 console.log(boxes);
 function flipcardfunction(event){
     console.log("clicked loop");
